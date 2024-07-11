@@ -1,0 +1,16 @@
+/* .roadmapBuilderSection-main{
+    height: 25rem;
+    width: 100%;
+    background-image: url('https://uploads-ssl.webflow.com/6376658f41e091647b12134e/6376658f41e091386c1213c0_pageBuilderBanner.png');
+    background-color: aliceblue;
+    background-position: 50%;
+    background-size: cover;
+    overflow: hidden;
+} */
+
+.roadmapBuilderSection-main-span{
+    -webkit-text-fill-color: transparent;
+    background-image:linear-gradient(82deg,#f772d1,#9f72f2);
+    -webkit-background-clip: text;
+    padding: 5rem;
+}

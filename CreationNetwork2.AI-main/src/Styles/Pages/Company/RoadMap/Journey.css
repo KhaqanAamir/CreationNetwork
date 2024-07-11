@@ -1,0 +1,84 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 10fr 1fr 10fr;
+  }
+  
+  .column {
+    background-color: #f5f9ff;
+    /* padding: 16px; */
+  }
+
+  .containering {
+    background-color: #f5f9ff;
+    flex-direction: column;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+     /* Set a height for the container, adjust as needed */
+  }
+  
+  .narrow-column {
+    background-color: #7842f3;
+    width: 4px;
+    height: 25%;
+  }
+  
+  .narrow-column-circle {
+    width: 40px;
+    height: 40px;
+    background-color: transparent; /* Set to transparent so the parent's background shows through */
+    border: 2px solid #7842f3;
+    border-radius: 100px;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    padding: 4px;
+  }
+  
+  .innercircle {
+    width: 24px;
+    height: 25px;
+    background-color: #7842f3;
+    border-radius: 100px;
+  }
+  
+  .item {
+    background-color: #ffffff;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+
+  .emptyblock{
+    width: 295px;
+    height: 380px;
+    padding: 20px;
+    background-color: f5f9ff;
+  }
+
+  .p-in-cards{
+    color: #7842f3;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .h-in-cards{
+    color: #061237;
+    letter-spacing: -.02em;
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  
+  .explain-in-cards{
+    color: #67718e;
+    letter-spacing: -.02em;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+  }
